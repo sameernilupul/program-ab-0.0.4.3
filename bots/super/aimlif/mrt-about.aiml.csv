@@ -1,0 +1,32 @@
+0,# UOM #,*,*,Ok#Comma lets talk about University of Moratuwa.#Newline    		<think> #Newline    			<set name="topic"> UOM </set>#Newline    			<set name="num_students"> 8000 </set>#Newline    		</think>#Newline    		<srai> #Newline    			<star index="1"/>  <star index="2"/>#Newline    		</srai>,mrt-about.aiml
+0,# UNIVERSITY OF MORATUWA #,*,*,Ok#Comma lets talk about University of Moratuwa.#Newline    		<think> #Newline    			<set name="topic"> #Newline    				UOM#Newline    			</set>#Newline    		</think>#Newline    		<srai> #Newline    			<star index="1"/> UOM <star index="2"/> #Newline    		</srai>,mrt-about.aiml
+0,WHO # VICE CHANCELLOR #,*,UOM,Prof. A.K.W Jayawardane,mrt-about.aiml
+0,# UNIVERSITY OF MORATUWA # EARLIER,*,UOM,Ceylon College of Technology#Comma Katubedda.,mrt-about.aiml
+0,# FOUNDED #,*,UOM,1960,mrt-about.aiml
+0,NUM FACULTIES,*,UOM,There are three faculties.,mrt-about.aiml
+0,# HOW MANY # FACULTIES #,*,UOM,<srai>#Newline    			NUM FACULTIES#Newline    		</srai>,mrt-about.aiml
+0,# NUMBER # FACULTIES #,*,UOM,<srai>#Newline    			NUM FACULTIES#Newline    		</srai>,mrt-about.aiml
+0,FACULTIES,*,UOM,Faculty of Engineering#Comma Faculty of Architecture and Faculty of Information Technology.,mrt-about.aiml
+0,# LIST THEM #,THERE ARE THREE FACULTIES.,UOM,<srai> FACULTIES </srai>,mrt-about.aiml
+0,# WHAT # FACULTIES #,THERE ARE THREE FACULTIES.,UOM,<srai> FACULTIES </srai>,mrt-about.aiml
+0,# DEAN # ENGINEERING #,*,UOM,Professor U.G.A. Puswewala.,mrt-about.aiml
+0,# DEAN # ARCHITECTURE #,*,UOM,Professor Chitra Weddikkara.,mrt-about.aiml
+0,# DEAN # IT #,*,UOM,Mr. D.K. Vithanage.,mrt-about.aiml
+0,# DEANS #,*,UOM,<srai>DEAN ENGINEERING</srai>#Newline    		<srai>DEAN ARCHITECTURE</srai>#Newline    		<srai>DEAN IT</srai>,mrt-about.aiml
+0,# PHONE #,*,UOM,011 - 2650301#Comma 011 - 2650188,mrt-about.aiml
+0,# FAX #,*,UOM,011 - 2650622,mrt-about.aiml
+0,# LOCATION #,*,UOM,Katubedda#Comma Sri Lanka.,mrt-about.aiml
+0,# LOCATED #,*,UOM,Katubedda#Comma Sri Lanka.,mrt-about.aiml
+0,# VISOION #,*,UOM,To be the most globally recognized Knowledge Enterprise in Asia.,mrt-about.aiml
+0,# MISSION #,*,UOM,To be the leading Knowledge Enterprise for technological and related disciplines in Asia.,mrt-about.aiml
+0,# ACADEMIC STAFF #,*,UOM,There are 341 lecturers in the academic staff.,mrt-about.aiml
+0,# ACADEMIC SUPPORT STAFF #,*,UOM,There are 30 in the academic staff.,mrt-about.aiml
+0,# NUMBER # LECTURERS #,*,UOM,<srai> ACADEMIC STAFF </srai>,mrt-about.aiml
+0,# HOW MANY # LECTURERS #,*,UOM,<srai> ACADEMIC STAFF </srai>,mrt-about.aiml
+0,# NUMBER # STUDENTS #,*,UOM,Do you know the exact amount?,mrt-about.aiml
+0,# HOW MANY # UNDERGRADUATES #,*,UOM,<srai> NUMBER STUDENTS </srai>,mrt-about.aiml
+0,# HOW MANY # STUDENTS #,*,UOM,<srai> NUMBER STUDENTS </srai>,mrt-about.aiml
+0,# NUMBER # UNDERGRADUATES #,*,UOM,<srai> NUMBER STUDENTS </srai>,mrt-about.aiml
+0,*,DO YOU KNOW THE EXACT AMOUNT?,UOM,<think>#Newline    			<set name="num_students"> <star index="1"/> </set>#Newline    		</think>#Newline    		Ok#Comma got it.,mrt-about.aiml
+0,# NEWS #,*,UOM,EESoc Panel Discussion - 2013 EESoc panel discussion will be held on 20th of December at Hotel Galadari.#Newline    	SLRC 2013 The E-Club of University of Moratuwa.#Newline    	FARU International Research Symposium 2013.#Newline    	UOM emerges Champions at XI SLUG 2013,mrt-about.aiml
+0,*,*,UOM,University of Moratuwa is the country's leading technological higher education institute excelling both locally and globally.,mrt-about.aiml

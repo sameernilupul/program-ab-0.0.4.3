@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+    	<pattern>
+        	# UOM #
+    	</pattern>
+    	<template>
+    		Ok, lets talk about University of Moratuwa.
+    		<think> 
+    			<set name ="topic"> UOM </set>
+    			<set name ="num_students"> 8000 </set>
+    		</think>
+    		<srai> 
+    			<star index="1"/>  <star index="2"/>
+    		</srai>
+    	</template>
+</category>
+
+
+<category>
+    	<pattern>
+        	# UNIVERSITY OF MORATUWA #
+    	</pattern>
+    	<template>
+    		Ok, lets talk about University of Moratuwa.
+    		<think> 
+    			<set name ="topic"> 
+    				UOM
+    			</set>
+    		</think>
+    		<srai> 
+    			<star index="1"/> UOM <star index="2"/> 
+    		</srai>
+    	</template>
+</category>
+
+
+<topic name = "UOM">
+	
+	<category>
+    	<pattern>
+        	WHO # VICE CHANCELLOR #
+    	</pattern>
+    	<template>
+    		Prof. A.K.W Jayawardane
+    	</template>
+	</category>
+	
+	<category>
+    	<pattern> 
+    		# UNIVERSITY OF MORATUWA # EARLIER  
+    	</pattern>
+    	<template> 
+    		Ceylon College of Technology, Katubedda.  
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# FOUNDED #
+    	</pattern>
+    	<template> 
+    		1960 
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		NUM FACULTIES
+    	</pattern>
+    	<template> 
+    		There are three faculties. 
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # FACULTIES #
+    	</pattern>
+    	<template> 
+    		<srai>
+    			NUM FACULTIES
+    		</srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# NUMBER # FACULTIES #
+    	</pattern>
+    	<template> 
+    		<srai>
+    			NUM FACULTIES
+    		</srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		FACULTIES
+    	</pattern>
+    	<template> 
+    			Faculty of Engineering, Faculty of Architecture and Faculty of Information Technology.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# LIST THEM #
+    	</pattern>
+    	<that> There are three faculties. </that>
+    	<template> 
+    			<srai> FACULTIES </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# WHAT # FACULTIES #
+    	</pattern>
+    	<that> There are three faculties. </that>
+    	<template> 
+    			<srai> FACULTIES </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# DEAN # ENGINEERING # 
+    	</pattern>
+    	<template> 
+    			Professor U.G.A. Puswewala.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# DEAN # ARCHITECTURE # 
+    	</pattern>
+    	<template> 
+    			Professor Chitra Weddikkara.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# DEAN # IT # 
+    	</pattern>
+    	<template> 
+    			Mr. D.K. Vithanage.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# DEANS # 
+    	</pattern>
+    	<template> 
+    		<srai>DEAN ENGINEERING</srai>
+    		<srai>DEAN ARCHITECTURE</srai>
+    		<srai>DEAN IT</srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# PHONE #
+    	</pattern>
+    	<template> 
+    		011- XXXXXXX
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# PHONE #
+    	</pattern>
+    	<template> 
+    		011 - 2650301, 011 - 2650188 
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# FAX #
+    	</pattern>
+    	<template> 
+    		011 - 2650622 
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# LOCATION #
+    	</pattern>
+    	<template> 
+    		Katubedda, Sri Lanka.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# LOCATED #
+    	</pattern>
+    	<template> 
+    		Katubedda, Sri Lanka.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# VISOION #
+    	</pattern>
+    	<template> 
+    		To be the most globally recognized Knowledge Enterprise in Asia.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# MISSION #
+    	</pattern>
+    	<template> 
+    		To be the leading Knowledge Enterprise for technological and related disciplines in Asia.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# ACADEMIC STAFF #
+    	</pattern>
+    	<template> 
+    		There are 341 lecturers in the academic staff.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# ACADEMIC SUPPORT STAFF #
+    	</pattern>
+    	<template> 
+    		There are 30 in the academic staff.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# NUMBER # LECTURERS #
+    	</pattern>
+    	<template> 
+    		<srai> ACADEMIC STAFF </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # LECTURERS #
+    	</pattern>
+    	<template> 
+    		<srai> ACADEMIC STAFF </srai>
+    	</template>
+  	</category>
+	
+	<category>
+    	<pattern> 
+    		# HOW MANY # LECTURERS #
+    	</pattern>
+    	<template> 
+    		<srai> ACADEMIC STAFF </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# NUMBER # STUDENTS #
+    	</pattern>
+    	<template> 
+    		There are about <get name ="num_students"/> undergraduates. But I'm not sure. Do you know the exact amount?
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # UNDERGRADUATES #
+    	</pattern>
+    	<template> 
+    		<srai> NUMBER STUDENTS </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # STUDENTS #
+    	</pattern>
+    	<template> 
+    		<srai> NUMBER STUDENTS </srai>
+    	</template>
+  	</category>
+	
+	<category>
+    	<pattern> 
+    		# NUMBER # UNDERGRADUATES #
+    	</pattern>
+    	<template> 
+    		<srai> NUMBER STUDENTS </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern>
+              *
+    	</pattern>
+    	<that> Do you know the exact amount? </that>
+    	<template>
+    		<think>
+    			<set name="num_students"> <star index="1"/> </set>
+    		</think>
+    		Ok, got it.
+    	</template>
+	</category>
+	
+	<category>
+    	<pattern>
+              # NEWS #
+    	</pattern>
+    	<template>
+    	EESoc Panel Discussion - 2013 EESoc panel discussion will be held on 20th of December at Hotel Galadari.
+    	SLRC 2013 The E-Club of University of Moratuwa.
+    	FARU International Research Symposium 2013.
+    	UOM emerges Champions at XI SLUG 2013
+    	</template>
+	</category>
+	
+	<category>
+    	<pattern>
+              *
+    	</pattern>
+    	<template>
+    		University of Moratuwa is the country's leading technological higher education institute excelling both locally and globally.
+    	</template>
+	</category>
+	
+</topic>
+</aiml>
