@@ -1,4 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
+	<category>
+    	<pattern>
+        	# EFAC #
+    	</pattern>
+    	<template>
+    		<think> 
+    			<set name ="topic"> EFAC </set>
+    			<set name ="num_students"> 3500 </set>
+    		</think>
+    		<srai> 
+    			<star index="1"/>  <star index="2"/>
+    		</srai>
+    	</template>
+	</category>
+
+
+	<category>
+    	<pattern>
+        	# FACULTY OF ENGINEERING #
+    	</pattern>
+    	<template>
+    		<think> 
+    			<set name ="topic"> 
+    				EFAC
+    			</set>
+    		</think>
+    		<srai> 
+    			<star index="1"/> EFAC <star index="2"/> 
+    		</srai>
+    	</template>
+	</category>
+
+<topic name = "EFAC">
+
+	<category>
+    	<pattern> 
+    		# FOUNDED #
+    	</pattern>
+    	<template> 
+    		1976 
+    	</template>
+	</category>
+	
+	<category>
+    	<pattern> 
+    		NUM DEPARTMENTS
+    	</pattern>
+    	<template> 
+    		There are nine departments. 
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # DEPARTMENTS #
+    	</pattern>
+    	<template> 
+    		<srai>
+    			NUM DEPARTMENTS
+    		</srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# NUMBER # DEPARTMENTS #
+    	</pattern>
+    	<template> 
+    		<srai>
+    			NUM DEPARTMENTS
+    		</srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		DEPARTMENTS
+    	</pattern>
+    	<template> 
+    	Chemical and Process Engineering
+    	Computer Science and Engineering
+    	Earth Resources Engineering
+    	Civil Engineering
+    	Electrical Engineering
+    	Electronic and Telecommunication Engineering
+    	Management of Technology
+    	Materials Science and Engineering
+    	Mathematics
+    	Mechanical Engineering
+    	Textile and Clothing Technology
+    	Transport and Logistics Management
+    	</template>
+  	</category>
+  	
+  		<category>
+    	<pattern> 
+    		# LIST THEM #
+    	</pattern>
+    	<that> There are nine departments. </that>
+    	<template> 
+    			<srai> DEPARTMENTS </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# WHAT # DEPARTMENTS #
+    	</pattern>
+    	<that> There are nine departments.</that>
+    	<template> 
+    			<srai> DEPARTMENTS </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# DEAN #
+    	</pattern>
+    	<template> 
+    			Professor U.G.A. Puswewala.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# NUMBER # STUDENTS #
+    	</pattern>
+    	<template> 
+    		There are about <get name ="num_students"/> undergraduates.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # UNDERGRADUATES #
+    	</pattern>
+    	<template> 
+    		<srai> NUMBER STUDENTS </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # STUDENTS #
+    	</pattern>
+    	<template> 
+    		<srai> NUMBER STUDENTS </srai>
+    	</template>
+  	</category>
+	
+	<category>
+    	<pattern> 
+    		# NUMBER # UNDERGRADUATES #
+    	</pattern>
+    	<template> 
+    		<srai> NUMBER STUDENTS </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern>
+              *
+    	</pattern>
+    	<template>
+    		The Faculty of Engineering is the largest faculty in the University of Moratuwa, comprising 12 academic departments, over 200 academic staff and around 3500 undergraduate and post-graduate students. The Faculty at present offers Bachelor of the Science of Engineering degree in 9 disciplines, Bachelor of Design degree in Fashion Design and Product Development and Bachelor of Science degree in Transport and Logistics Management. In addition, the Faculty offers a large number of post-graduate degrees leading to Master of Science, Master of Engineering, Master of Philosophy, Master of Business Administration and Doctor of Philosophy.
+    	</template>
+	</category>
+  	
+</topic>
+
 </aiml>

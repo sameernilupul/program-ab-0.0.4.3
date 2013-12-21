@@ -1,0 +1,15 @@
+0,# EFAC #,*,*,<think> #Newline    			<set name="topic"> EFAC </set>#Newline    			<set name="num_students"> 3500 </set>#Newline    		</think>#Newline    		<srai> #Newline    			<star index="1"/>  <star index="2"/>#Newline    		</srai>,mrt-efac.aiml
+0,# FACULTY OF ENGINEERING #,*,*,<think> #Newline    			<set name="topic"> #Newline    				EFAC#Newline    			</set>#Newline    		</think>#Newline    		<srai> #Newline    			<star index="1"/> EFAC <star index="2"/> #Newline    		</srai>,mrt-efac.aiml
+0,# FOUNDED #,*,EFAC,1976,mrt-efac.aiml
+0,NUM DEPARTMENTS,*,EFAC,There are nine departments.,mrt-efac.aiml
+0,# HOW MANY # DEPARTMENTS #,*,EFAC,<srai>#Newline    			NUM DEPARTMENTS#Newline    		</srai>,mrt-efac.aiml
+0,# NUMBER # DEPARTMENTS #,*,EFAC,<srai>#Newline    			NUM DEPARTMENTS#Newline    		</srai>,mrt-efac.aiml
+0,DEPARTMENTS,*,EFAC,Chemical and Process Engineering#Newline    	Computer Science and Engineering#Newline    	Earth Resources Engineering#Newline    	Civil Engineering#Newline    	Electrical Engineering#Newline    	Electronic and Telecommunication Engineering#Newline    	Management of Technology#Newline    	Materials Science and Engineering#Newline    	Mathematics#Newline    	Mechanical Engineering#Newline    	Textile and Clothing Technology#Newline    	Transport and Logistics Management,mrt-efac.aiml
+0,# LIST THEM #,THERE ARE NINE DEPARTMENTS.,EFAC,<srai> DEPARTMENTS </srai>,mrt-efac.aiml
+0,# WHAT # DEPARTMENTS #,THERE ARE NINE DEPARTMENTS.,EFAC,<srai> DEPARTMENTS </srai>,mrt-efac.aiml
+0,# DEAN #,*,EFAC,Professor U.G.A. Puswewala.,mrt-efac.aiml
+0,# NUMBER # STUDENTS #,*,EFAC,There are about <get name="num_students"/> undergraduates.,mrt-efac.aiml
+0,# HOW MANY # UNDERGRADUATES #,*,EFAC,<srai> NUMBER STUDENTS </srai>,mrt-efac.aiml
+0,# HOW MANY # STUDENTS #,*,EFAC,<srai> NUMBER STUDENTS </srai>,mrt-efac.aiml
+0,# NUMBER # UNDERGRADUATES #,*,EFAC,<srai> NUMBER STUDENTS </srai>,mrt-efac.aiml
+0,*,*,EFAC,The Faculty of Engineering is the largest faculty in the University of Moratuwa#Comma comprising 12 academic departments#Comma over 200 academic staff and around 3500 undergraduate and post-graduate students. The Faculty at present offers Bachelor of the Science of Engineering degree in 9 disciplines#Comma Bachelor of Design degree in Fashion Design and Product Development and Bachelor of Science degree in Transport and Logistics Management. In addition#Comma the Faculty offers a large number of post-graduate degrees leading to Master of Science#Comma Master of Engineering#Comma Master of Philosophy#Comma Master of Business Administration and Doctor of Philosophy.,mrt-efac.aiml

@@ -23,10 +23,12 @@
 0,# ACADEMIC SUPPORT STAFF #,*,UOM,There are 30 in the academic staff.,mrt-about.aiml
 0,# NUMBER # LECTURERS #,*,UOM,<srai> ACADEMIC STAFF </srai>,mrt-about.aiml
 0,# HOW MANY # LECTURERS #,*,UOM,<srai> ACADEMIC STAFF </srai>,mrt-about.aiml
-0,# NUMBER # STUDENTS #,*,UOM,Do you know the exact amount?,mrt-about.aiml
+0,# NUMBER # STUDENTS #,*,UOM,There are about <get name="num_students"/> undergraduates. But I'm not sure. Do you know the exact amount?,mrt-about.aiml
 0,# HOW MANY # UNDERGRADUATES #,*,UOM,<srai> NUMBER STUDENTS </srai>,mrt-about.aiml
 0,# HOW MANY # STUDENTS #,*,UOM,<srai> NUMBER STUDENTS </srai>,mrt-about.aiml
 0,# NUMBER # UNDERGRADUATES #,*,UOM,<srai> NUMBER STUDENTS </srai>,mrt-about.aiml
 0,*,DO YOU KNOW THE EXACT AMOUNT?,UOM,<think>#Newline    			<set name="num_students"> <star index="1"/> </set>#Newline    		</think>#Newline    		Ok#Comma got it.,mrt-about.aiml
 0,# NEWS #,*,UOM,EESoc Panel Discussion - 2013 EESoc panel discussion will be held on 20th of December at Hotel Galadari.#Newline    	SLRC 2013 The E-Club of University of Moratuwa.#Newline    	FARU International Research Symposium 2013.#Newline    	UOM emerges Champions at XI SLUG 2013,mrt-about.aiml
+0,# LIFE #,*,UOM,Lying on the scenic banks of the Bolgoda Lake#Comma the University not only quenches the thirst for knowledge but also provides its students ample opportunity to develop themselves in every way possible.,mrt-about.aiml
+0,# SOCITIES #,*,UOM,Astronomical Society#Newline    	Buddhist Society#Newline    	Catholic Students' Society#Newline    	Civil Engineering Society#Newline    	Computer Society#Newline    	Electrical Engineering Society#Newline    	Electronic Club#Newline    	English Literary Association#Newline    	Gavel club,mrt-about.aiml
 0,*,*,UOM,University of Moratuwa is the country's leading technological higher education institute excelling both locally and globally.,mrt-about.aiml

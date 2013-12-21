@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	<category>
+    	<pattern>
+        	# CANTEEN #
+    	</pattern>
+    	<template>
+    		<think> 
+    			<set name ="topic"> CANTEEN </set>
+    		</think>
+    		<srai> 
+    			<star index="1"/>  <star index="2"/>
+    		</srai>
+    	</template>
+	</category>
+
+<topic name = "CANTEEN">
+
+	<category>
+    	<pattern> 
+    		NUM CANTEENS
+    	</pattern>
+    	<template> 
+    		There are six labs. 
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # CANTEENS #
+    	</pattern>
+    	<template> 
+    		<srai>
+    			NUM CANTEENS
+    		</srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# NUMBER # CANTEENS #
+    	</pattern>
+    	<template> 
+    		<srai>
+    			NUM CANTEENS
+    		</srai>
+    	</template>
+  	</category>
+  	
+  	
+  	<category>
+    	<pattern> 
+    		# BEST #
+    	</pattern>
+    	<template> 
+    			GODA
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		CANTEENS
+    	</pattern>
+    	<template> 
+    		Goda, Wala, Goda Uda, Gula, L - canteen, Staff Canteen.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# WHAT # CANTEENS #
+    	</pattern>
+    	<template> 
+    		<srai> CANTEENS </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# LIST # CANTEENS #
+    	</pattern>
+    	<template> 
+    		<srai> CANTEENS </srai>
+    	</template>
+  	</category>
+	
+	<category>
+    	<pattern> 
+    		# HOW # FOOD #
+    	</pattern>
+    	<template> 
+    		Don't ask me, I can't eat.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# PRICE # PLAIN TEA #
+    	</pattern>
+    	<template> 
+			 3 /=
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# PRICE *
+    	</pattern>
+    	<template> 
+			 I'm not sure.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern>
+              *
+    	</pattern>
+    	<template>
+    		I suggest you to try some rotee from one of the canteens.
+    	</template>
+	</category>
+  	
+</topic>
+
+</aiml>

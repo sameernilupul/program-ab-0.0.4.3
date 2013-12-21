@@ -1,0 +1,12 @@
+0,# CSE #,*,*,<think> #Newline    			<set name="topic"> CSE </set>#Newline    			<set name="num_students"> 400 </set>#Newline    		</think>#Newline    		<srai> #Newline    			<star index="1"/>  <star index="2"/>#Newline    		</srai>,mrt-cse.aiml
+0,# COMPUTER SCIENCE # ENGINEERING #,*,*,<think> #Newline    			<set name="topic"> #Newline    				CSE#Newline    			</set>#Newline    		</think>#Newline    		<srai> #Newline    			<star index="1"/> CSE <star index="3"/> #Newline    		</srai>,mrt-cse.aiml
+0,# FOUNDED #,*,CSE,1988,mrt-cse.aiml
+0,NUM LABS,*,CSE,There are ten labs.,mrt-cse.aiml
+0,# HOW MANY # LABS #,*,CSE,<srai>#Newline    			NUM LABS#Newline    		</srai>,mrt-cse.aiml
+0,# NUMBER # LABS #,*,CSE,<srai>#Newline    			NUM LABS#Newline    		</srai>,mrt-cse.aiml
+0,# HEAD #,*,CSE,Dr. Chandana Gamage.,mrt-cse.aiml
+0,# NUMBER # STUDENTS #,*,CSE,There are about <get name="num_students"/> undergraduates.,mrt-cse.aiml
+0,# HOW MANY # UNDERGRADUATES #,*,CSE,<srai> NUMBER STUDENTS </srai>,mrt-cse.aiml
+0,# HOW MANY # STUDENTS #,*,CSE,<srai> NUMBER STUDENTS </srai>,mrt-cse.aiml
+0,# NUMBER # UNDERGRADUATES #,*,CSE,<srai> NUMBER STUDENTS </srai>,mrt-cse.aiml
+0,*,*,CSE,Definitely CSE is the best department in UOM. right?,mrt-cse.aiml

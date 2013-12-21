@@ -1,0 +1,12 @@
+0,# CANTEEN #,*,*,<think> #Newline    			<set name="topic"> CANTEEN </set>#Newline    		</think>#Newline    		<srai> #Newline    			<star index="1"/>  <star index="2"/>#Newline    		</srai>,mrt-canteens.aiml
+0,NUM CANTEENS,*,CANTEEN,There are six labs.,mrt-canteens.aiml
+0,# HOW MANY # CANTEENS #,*,CANTEEN,<srai>#Newline    			NUM CANTEENS#Newline    		</srai>,mrt-canteens.aiml
+0,# NUMBER # CANTEENS #,*,CANTEEN,<srai>#Newline    			NUM CANTEENS#Newline    		</srai>,mrt-canteens.aiml
+0,# BEST #,*,CANTEEN,GODA,mrt-canteens.aiml
+0,CANTEENS,*,CANTEEN,Goda#Comma Wala#Comma Goda Uda#Comma Gula#Comma L - canteen#Comma Staff Canteen.,mrt-canteens.aiml
+0,# WHAT # CANTEENS #,*,CANTEEN,<srai> CANTEENS </srai>,mrt-canteens.aiml
+0,# LIST # CANTEENS #,*,CANTEEN,<srai> CANTEENS </srai>,mrt-canteens.aiml
+0,# HOW # FOOD #,*,CANTEEN,Don't ask me#Comma I can't eat.,mrt-canteens.aiml
+0,# PRICE # PLAIN TEA #,*,CANTEEN,3 /=,mrt-canteens.aiml
+0,# PRICE *,*,CANTEEN,I'm not sure.,mrt-canteens.aiml
+0,*,*,CANTEEN,I suggest you to try some rotee from one of the canteens.,mrt-canteens.aiml

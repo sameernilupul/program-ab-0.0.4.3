@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	<category>
+    	<pattern>
+        	# CSE #
+    	</pattern>
+    	<template>
+    		<think> 
+    			<set name ="topic"> CSE </set>
+    			<set name ="num_students"> 400 </set>
+    		</think>
+    		<srai> 
+    			<star index="1"/>  <star index="2"/>
+    		</srai>
+    	</template>
+	</category>
+
+
+	<category>
+    	<pattern>
+        	# COMPUTER SCIENCE # ENGINEERING #
+    	</pattern>
+    	<template>
+    		<think> 
+    			<set name ="topic"> 
+    				CSE
+    			</set>
+    		</think>
+    		<srai> 
+    			<star index="1"/> CSE <star index="3"/> 
+    		</srai>
+    	</template>
+	</category>
+
+<topic name = "CSE">
+
+	<category>
+    	<pattern> 
+    		# FOUNDED #
+    	</pattern>
+    	<template> 
+    		1988 
+    	</template>
+	</category>
+	
+	<category>
+    	<pattern> 
+    		NUM LABS
+    	</pattern>
+    	<template> 
+    		There are ten labs. 
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # LABS #
+    	</pattern>
+    	<template> 
+    		<srai>
+    			NUM LABS
+    		</srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# NUMBER # LABS #
+    	</pattern>
+    	<template> 
+    		<srai>
+    			NUM LABS
+    		</srai>
+    	</template>
+  	</category>
+  	
+  	
+  	<category>
+    	<pattern> 
+    		# HEAD #
+    	</pattern>
+    	<template> 
+    			Dr. Chandana Gamage.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# NUMBER # STUDENTS #
+    	</pattern>
+    	<template> 
+    		There are about <get name ="num_students"/> undergraduates.
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # UNDERGRADUATES #
+    	</pattern>
+    	<template> 
+    		<srai> NUMBER STUDENTS </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern> 
+    		# HOW MANY # STUDENTS #
+    	</pattern>
+    	<template> 
+    		<srai> NUMBER STUDENTS </srai>
+    	</template>
+  	</category>
+	
+	<category>
+    	<pattern> 
+    		# NUMBER # UNDERGRADUATES #
+    	</pattern>
+    	<template> 
+    		<srai> NUMBER STUDENTS </srai>
+    	</template>
+  	</category>
+  	
+  	<category>
+    	<pattern>
+              *
+    	</pattern>
+    	<template>
+    		Definitely CSE is the best department in UOM. right?
+    	</template>
+	</category>
+  	
+</topic>
+
+</aiml>

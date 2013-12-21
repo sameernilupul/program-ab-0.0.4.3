@@ -334,6 +334,41 @@
 	
 	<category>
     	<pattern>
+              # LIFE #
+    	</pattern>
+    	<template>
+    	"Lying on the scenic banks of the Bolgoda Lake, the University not only quenches the thirst for knowledge but also provides its students ample opportunity to develop themselves in every way possible."
+    	</template>
+	</category>
+	
+	<category>
+    	<pattern>
+              # LIFE #
+    	</pattern>
+    	<template>
+    	"Lying on the scenic banks of the Bolgoda Lake, the University not only quenches the thirst for knowledge but also provides its students ample opportunity to develop themselves in every way possible."
+    	</template>
+	</category>
+	
+	<category>
+    	<pattern>
+              # SOCITIES #
+    	</pattern>
+    	<template>
+    	Astronomical Society
+    	Buddhist Society
+    	Catholic Students' Society
+    	Civil Engineering Society
+    	Computer Society
+    	Electrical Engineering Society
+    	Electronic Club
+    	English Literary Association
+    	Gavel club
+    	</template>
+	</category>
+	
+	<category>
+    	<pattern>
               *
     	</pattern>
     	<template>
